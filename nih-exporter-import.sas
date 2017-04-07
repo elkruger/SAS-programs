@@ -1,5 +1,5 @@
 
-libname pctr 'filepath\Subsequent funding';
+libname pctr 'filepath';
 
 /* Import NIH ExPORTER Data Catalog CSV 2000-2016 Data */
 /* data source: https://exporter.nih.gov/ExPORTER_Catalog.aspx */
