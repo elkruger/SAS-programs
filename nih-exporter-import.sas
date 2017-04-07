@@ -6,7 +6,7 @@ libname pctr 'filepath\Subsequent funding';
 
 data PCTR.reporter00;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2000.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2000.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -140,7 +140,7 @@ run;
 
 data PCTR.reporter01;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2001.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2001.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -276,7 +276,7 @@ run;
 
 data PCTR.reporter02;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2002.csv' delimiter = ',' MISSOVER DSD lrecl=200 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2002.csv' delimiter = ',' MISSOVER DSD lrecl=200 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -411,7 +411,7 @@ run;
 
 data PCTR.reporter03;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2003.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2003.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -546,7 +546,7 @@ run;
 
 data PCTR.reporter04;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2004.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2004.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -682,7 +682,7 @@ run;
 
 data PCTR.reporter05;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2005.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2005.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -817,7 +817,7 @@ run;
 
 data PCTR.reporter06;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2006.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2006.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -952,7 +952,7 @@ run;
 
 data PCTR.reporter07;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2007.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2007.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1087,7 +1087,7 @@ run;
 
 data PCTR.reporter08;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2008.csv' dlm = ',' MISSOVER DSD firstobs=2 lrecl=34000;
+	infile 'filepath\RePORTER_PRJ_C_FY2008.csv' dlm = ',' MISSOVER DSD firstobs=2 lrecl=34000;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1223,7 +1223,7 @@ run;
 
 data PCTR.reporter09;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2009.csv' dlm = ',' MISSOVER DSD firstobs=2 lrecl=34000;
+	infile 'filepath\RePORTER_PRJ_C_FY2009.csv' dlm = ',' MISSOVER DSD firstobs=2 lrecl=34000;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1362,7 +1362,7 @@ run;
 
 data PCTR.reporter10;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2010.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2010.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1501,7 +1501,7 @@ run;
 
 data PCTR.reporter11;
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2011.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2011.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1640,7 +1640,7 @@ run;
 
 data PCTR.reporter12 (drop=PROJECT_TERMS);
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2012.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2012.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1784,7 +1784,7 @@ run;
 
 data PCTR.reporter13 (drop=PROJECT_TERMS);
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2013.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2013.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -1928,7 +1928,7 @@ run;
 
 data PCTR.reporter14 (drop=PROJECT_TERMS);
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2014.csv' delimiter = ',' MISSOVER DSD lrecl=34000 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2014.csv' delimiter = ',' MISSOVER DSD lrecl=34000 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -2072,7 +2072,7 @@ run;
 
 data PCTR.reporter15 (drop=PROJECT_TERMS);
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2015.csv' delimiter = ',' MISSOVER DSD lrecl=34000 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2015.csv' delimiter = ',' MISSOVER DSD lrecl=34000 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
@@ -2216,7 +2216,7 @@ run;
 
 data PCTR.reporter16 (drop=PROJECT_TERMS);
 %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-	infile 'filepath\Subsequent funding\RePORTER_PRJ_C_FY2016.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'filepath\RePORTER_PRJ_C_FY2016.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat APPLICATION_ID $32. ;
 	informat ACTIVITY $10. ;
 	informat ADMINISTERING_IC $10. ;
